@@ -38,5 +38,5 @@ func calculateSquare(sideLen float64) float64 {
 	return sideLen * sideLen
 }
 func calculateCircle(sideLen float64) float64 {
-	return math.Pi * (sideLen * sideLen / 4)
+	return math.Pi * ((sideLen / 2) * (sideLen / 2))
 }
